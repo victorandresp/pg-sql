@@ -3,6 +3,6 @@ CREATE TABLE employees (
 	first_name  VARCHAR(45),
 	last_name  VARCHAR(45),
 	birthdate DATE,
-	sueldo DECIMAL(7,2),
-	puesto VARCHAR(45)
+	salary DECIMAL(7,2),
+	job_position VARCHAR(45)
 );
