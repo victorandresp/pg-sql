@@ -1,4 +1,4 @@
-CREATE TABLE alumnos(
+CREATE TABLE students(
 num_control BIGINT,
 first_name VARCHAR(45),
 last_name VARCHAR(45),
@@ -12,7 +12,7 @@ average DECIMAL(6,2)
 
 
 
-INSERT INTO alumnos(numcontrol,first_name,last_name,second_last_name,birthdate,entry_date,phone_number,career,average)
+INSERT INTO students(num_control,first_name,last_name,second_last_name,birthdate,entry_date,phone_number,career,average)
  VALUES(1000,'Juan','Vazquez','Perez','2016-05-08','1992-02-18',
 '1234564343','Mercadotecnia',95.92),(1001,'Juan','Vazquez','Perez','2018-02-08','1991-05-12',
 '1234564348','Ingenieria en Sistemas',85.2),(1002,'Carlos Miguel','Lopez','Perez','2017-03-15','1989-07-15',
