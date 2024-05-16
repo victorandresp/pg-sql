@@ -3,8 +3,8 @@ num_control BIGINT,
 first_name VARCHAR(45),
 last_name VARCHAR(45),
 second_last_name VARCHAR(45),
-birthdate DATE,
 entry_date DATE,
+birthdate DATE,
 phone_number VARCHAR(12),
 career VARCHAR(45),
 average DECIMAL(6,2)
@@ -12,7 +12,7 @@ average DECIMAL(6,2)
 
 
 
-INSERT INTO students(num_control,first_name,last_name,second_last_name,birthdate,entry_date,phone_number,career,average)
+INSERT INTO students(num_control,first_name,last_name,second_last_name,entry_date,birthdate,phone_number,career,average)
  VALUES(1000,'Juan','Vazquez','Perez','2016-05-08','1992-02-18',
 '1234564343','Mercadotecnia',95.92),(1001,'Juan','Vazquez','Perez','2018-02-08','1991-05-12',
 '1234564348','Ingenieria en Sistemas',85.2),(1002,'Carlos Miguel','Lopez','Perez','2017-03-15','1989-07-15',
