@@ -1,0 +1,1 @@
+SELECT num_control, first_name, last_name, average  FROM students WHERE average >= 9 ORDER BY average ASC;
