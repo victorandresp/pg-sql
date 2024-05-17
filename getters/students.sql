@@ -15,3 +15,8 @@ ORDER BY average ASC;
 SELECT num_control, first_name|| ' ' || last_name AS full_name, career, average  FROM students 
 WHERE average <= 90 AND (career = 'Ingenieria en Sistemas' OR career = 'Psicologia')
 ORDER BY average ASC;
+
+/* NOT operator */
+SELECT num_control, first_name|| ' ' || last_name AS full_name, career, average  FROM students 
+WHERE NOT career = 'Ingenieria en Sistemas'
+ORDER BY average ASC;
