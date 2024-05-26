@@ -1,0 +1,2 @@
+-- COUNT QUANTITY RECORDS OF TABLE
+SELECT COUNT(*) AS count_records FROM people;
