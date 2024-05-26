@@ -13,3 +13,7 @@ DELETE FROM costumers WHERE id_costumer = 2 ;
 /* DELETE PERMANENTLY COMPLETE TABLE*/
 
 DROP TABLE IF EXISTS costumers, students;
+
+-- OBTAIN NON-REPEATED RECORDS
+
+SELECT DISTINCT debt_total FROM costumers;
