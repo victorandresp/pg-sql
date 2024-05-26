@@ -1,2 +1,4 @@
 -- COUNT QUANTITY RECORDS OF TABLE
 SELECT COUNT(*) AS count_records FROM people;
+-- COUNT QUANTITY MALES AND FEMALES HAS BY TABLE
+SELECT gender, COUNT(*) AS quantity_by_gender FROM people GROUP BY gender;
