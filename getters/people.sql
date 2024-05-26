@@ -2,3 +2,5 @@
 SELECT COUNT(*) AS count_records FROM people;
 -- COUNT QUANTITY MALES AND FEMALES HAS BY TABLE
 SELECT gender, COUNT(*) AS quantity_by_gender FROM people GROUP BY gender;
+-- COUNT QUANTITY PEOPLE EXISTS BY 'city' AND ORDER BY ALIAS OF GROUP
+SELECT city, COUNT(*) AS quantity_by_city FROM people GROUP BY city ORDER BY quantity_by_city ASC
