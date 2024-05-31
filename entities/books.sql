@@ -7,7 +7,6 @@ CREATE TABLE books(
     quantity SMALLINT
 );
 
-
 INSERT INTO books(code_book,title, author,editorial,price,quantity)
 VALUES(10001,'El lago','Gil Gamez','El buen lector',850,4),
 (10002,'El conejito','Flors','Libro abierto',200.5,2),
