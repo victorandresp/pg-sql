@@ -46,3 +46,6 @@ VALUES(10001,'El lago','Gil Gamez','El buen lector',850,4),
 (10037,'Calculo II','Antonio Town','Mexico',800.5,null),
 (10038,'Programación en Java a fondo II','Mauricio Pérez','Mexico',100.5,null),
 (10039,'Calculo III','Lorena Garza','El pueblo',200.5,null);
+
+-- ADD CONSTRAINT AND PK TO TABLE
+ALTER TABLE books ADD CONSTRAINT pk_books_code_book  PRIMARY KEY (code_book);
