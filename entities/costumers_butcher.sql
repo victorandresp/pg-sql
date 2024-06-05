@@ -6,10 +6,9 @@ CREATE TABLE costumers_butcher(
 	phone VARCHAR(45)
 );
 
-
-
 INSERT INTO costumers_butcher(id_costumer, first_name, last_name, second_last_name, phone)
-VALUES (1001,'Alberto','Gomez','Perez','2222222222'),
+VALUES 
+	(1001,'Alberto','Gomez','Perez','2222222222'),
 	(1002,'Juan Jose','Sanchez','Guerra','4822222222'),
 	(1003,'Maria Antonia','Lopez','Gamez','2277222222'),
 	(1004,'Luis Roman','Espino','Garza','2222262222'),
