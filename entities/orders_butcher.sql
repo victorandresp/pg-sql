@@ -5,6 +5,7 @@ CREATE TABLE orders_butcher(
 	date DATE,
    CONSTRAINT FK_id_order FOREIGN KEY (id_costumer) REFERENCES costumers_butcher(id_costumer)
 );
+
 INSERT INTO orders_butcher(id_order, id_costumer, description, date)
 	VALUES(1,'1015','8 Kg de carne para asar','2021-09-01'),
 	(2,'1012','12 Kg queso fresco','2021-09-01'),
